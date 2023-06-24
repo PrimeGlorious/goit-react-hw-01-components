@@ -1,0 +1,21 @@
+.friend_status {
+  display: inline-block;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.friend_avatar {
+  width: 80px;
+  height: 80px;
+  margin-right: 25px;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}

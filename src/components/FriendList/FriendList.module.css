@@ -1,0 +1,16 @@
+
+.friend_list_item {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 400px;
+  height: 100px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.friend_list:nth-last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,23 @@
+.transaction_history {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.transaction_history, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #DAE3EB;
+}
+
+th, td {
+  width: 300px;
+  height: 80px;
+  text-align: center;
+}
+
+th {
+  background-color: #2C94E5;
+  color: #ffffff;
+}
